@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+a {
+  color: black;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -30,6 +34,11 @@ header {
 
 nav {
   display: block;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
 }
 
 header nav {
