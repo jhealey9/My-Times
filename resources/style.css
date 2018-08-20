@@ -3,10 +3,16 @@ body {
 }
 
 div {
-  border: 1px solid black;
+  display: block;
 }
 
 a {
+  color: black;
+}
+
+p.narrative {
+  font-family: Georgia;
+  font-size: 17px;
   color: black;
 }
 
@@ -51,11 +57,10 @@ header nav {
 
 .main-container {
   display: flex;
-  display: flex;
   width: 1232px;
   margin: 0 auto 78px auto;
   padding-top: 110px;
-  border: 1px solid black
+  /* border: 1px solid black */
 }
 
 .column {
@@ -76,10 +81,26 @@ header nav {
   width: 240px;
 }
 
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.stories .text-content {
+  height: 250px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
 .image-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   height: 300px;
   margin-top: 15px;
   font-family: Georgia;
@@ -89,16 +110,38 @@ header nav {
   text-align: center;
 }
 
+.feature-story span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  text-align: left;
+}
+
 .feature-story .image-content {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
-  width: 630px;
-  margin-top: 0;
-  text-align: left;
+  /* width: 630px; */
+  /* margin-top: 0;
+  text-align: left; */
 }
 
 .earth.image-content {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
-  width: 630px;
-  margin-top: 0;
-  text-align: left;
+  /*width: 630px; */
+  /* margin-top: 0;
+  text-align: left; */
+}
+
+.camera.image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  /* width: 630px; */
+  /* margin-top: 0;
+  text-align: left; */
+}
+
+.cats.image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  /* width: auto; */
+  /* margin-top: 0;
+  text-align: left; */
 }
